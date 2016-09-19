@@ -1,0 +1,82 @@
+/*搜索列表*/
+a:hover {
+	text-decoration:none;
+}
+.search-title {
+	background-color: #72bb2a;
+	height: 70px;
+}
+.search-title img{
+    vertical-align: middle;
+}
+.search-title span {
+    vertical-align: middle;
+	font-size: 18px;
+	color: #fff;
+	line-height: 70px;
+	margin-left: 35px;
+}
+.wrap {
+	width: 1136px;
+	margin: auto;
+	padding: 0 30px;	
+}
+.search-list {
+	margin-top: 55px;
+}
+.search-list li{
+	border-bottom: 1px dashed #c0c0c0;
+	padding-bottom: 38px;
+}
+.search-info {
+	
+}
+.search-info h3{
+	margin-top: 30px;
+	font-size: 24px;
+	color: #888;
+}
+.search-info p{
+	margin-top: 36px;
+	font-size: 14px;
+	line-height: 28px;
+	color: #999;
+}
+.search-info span{
+	display: inline-block;
+	margin-top: 30px;
+	font-size: 12px;
+	color: #888;
+}
+.checked {
+	color: #72bb2a;
+	font-style: normal;
+}
+.page {
+	margin-top: 90px;
+	margin-bottom: 90px;
+	display: inline-block;
+}
+.page ul li {
+	float: left;
+	font-size: 14px;
+	color: #8b8b8b;
+	border: 2px solid #d2d2d2;
+	border-radius: 100%;
+	padding: 0 7px;
+	margin-left: 40px;
+}
+.page ul li.prev {
+	border-radius: 16px;
+	padding: 0 15px;
+	margin-left: 0px;
+}
+.page ul li.next {
+	border-radius: 16px;
+	padding: 0 15px;
+}
+.page ul li.on {
+	background-color: #72bb2a;
+	color: #fff;
+	border-color:#72bb2a;
+}
