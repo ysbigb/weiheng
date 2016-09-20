@@ -1,0 +1,64 @@
+html {
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+}
+a :hover {
+	text-decoration: none;
+}
+body {
+  font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  line-height: normal; 
+  margin: 0px;
+  padding: 0px;
+ }
+img {
+	width: 100%;
+}
+.wap-wrap {
+	padding: 0 15px;
+	
+}
+.card {
+	margin-top: 1.5rem;
+	border-bottom: 1px dashed #888;
+}
+.card-img {
+	max-height: 397px;
+	overflow: hidden;
+}
+.card-content {
+	background-color: #fff;
+	padding: 1rem;
+}
+.card-content h3 {
+	margin:0;
+	color: #8b8b8b;
+	font-weight: bolder;
+	font-size: 2rem;
+	
+}
+.card-content p {
+    color: #8b8b8b;
+    font-size: 1.4rem;
+    max-height: 4.2rem; 
+    overflow: hidden;
+}
+.card-content .activity-time{
+	font-size: 1.3rem;
+	color: #8b8b8b;
+}
+.card-content .activity-time span {
+	margin-left: 3rem;
+}
+.card-content button {
+	background-color: transparent;
+	border: 1.5px solid #000;
+	font-size: 1.5rem;
+	padding: 1rem 5rem;
+	color: #747474;
+	margin-top: 20px;
+}
