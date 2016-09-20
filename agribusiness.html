@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/agribusiness.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<title>农企在线</title>
+	</head>
+	<body>
+		<div class="mask"></div>
+		<div class="wrap">
+			<div class="agribusiness">
+				<div class="agribusiness-title" style="margin-left: 14px;">
+					<img src="images/icon_company.png" alt="" />
+					<span>农企在线</span>
+				</div>
+				<ul class="agribusiness-type" style="margin-left: 14px;">
+					<li><img src="images/map_icon1.png"><span>品牌</span></li>
+	                <li><img src="images/map_icon2.png"><span>加工</span></li>
+	                <li><img src="images/map_icon3.png"><span>基地</span></li>
+	                <li><img src="images/map_icon4.png"><span>仓储</span></li>
+				</ul>
+				<div class="agribusiness-map">
+					
+				</div>
+				<button class="add">
+					<img src="images/add-btn.png"/>
+				</button>
+			</div>
+		</div>
+		<div class="log-box">
+			<div class="log-content">
+				<button class="close-btn">
+					<img src="images/close.png"/>
+				</button>
+				<div style="margin-top: 50px;">
+					<img src="images/use-qq.png" alt="" />
+				</div>
+				<div style="margin-top: 24px;">
+					<a href="">
+						<img src="images/QQ.png" alt="" />
+					</a>
+					<a href="" style="margin-left: 20px;">
+						<img src="images/vx.png" alt="" />
+					</a>
+				</div>
+				<div style="margin-top: 24px;">
+					<img src="images/use-phone.png" alt="" />
+				</div>
+				<form action="">
+					<div>
+						<input type="text" placeholder="输入手机号或者邮箱"/>
+					</div>
+					<div>
+						<input type="password" placeholder="密码"/>
+					</div>
+					<button class="log-btn">
+						<img src="images/log-btn.png"/>
+					</button>
+					<div class="fn-clear forget">
+						<a href="" >忘记密码 ></a>
+						<span style="margin-left: 60px;">还没有账号？</span>
+						<a href="" class="go-register">点击注册 ></a>
+					</div>
+				</form>
+			</div>			
+		</div>
+		<div class="register-qq-box">
+			<div class="register-qq-content">
+				<button class="close-btn">
+					<img src="images/close.png"/>
+				</button>
+				<div style="margin-top: 50px;">
+					<img src="images/use-qq.png" alt="" />
+				</div>
+				<div style="margin-top: 24px;">
+					<a href="">
+						<img src="images/QQ.png" alt="" />
+					</a>
+					<a href="" style="margin-left: 20px;">
+						<img src="images/vx.png" alt="" />
+					</a>
+				</div>
+				<div class="to-register">
+					<a href="">使用手机号/邮箱注册</a>
+				</div>
+				<div class="fn-clear forget" style="margin-top: 40px; margin-bottom: 66px;">
+					<span>已有账号</span>
+					<a href="" class="to-log">点击登录 ></a>
+				</div>
+			</div>			
+		</div>
+		<div class="register-phone-box">
+			<div class="register-phone-content">
+				<button class="close-btn">
+					<img src="images/close.png"/>
+				</button>
+				<div style="margin-top: 50px;">
+					<img src="images/use-phone.png" alt="" />
+				</div>
+				<form action="">
+					<div>
+						<input type="text" placeholder="输入手机号或者邮箱"/>
+					</div>
+					<div>
+						<input type="text" placeholder="输入公司名"/>
+					</div>
+					<div style="text-align: left;margin-top: 12px;">
+						<input style="width: 142px;vertical-align: middle;margin:0 2px 0 119px;" type="text" placeholder="输入验证码"/>
+						<img style="vertical-align: middle;" src="images/yzm.png" alt="" />
+					</div>
+					<button class="register-btn">
+						<img src="images/register-btn.png"/>
+					</button>
+				</form>
+			</div>			
+		</div>
+		<script type="text/javascript">
+			$(".close-btn").click(function(){
+				$(".mask").hide();
+				$(this).parent().parent().hide();
+			})
+			$(".add").click(function(){
+				$(".mask").show();
+				$(".log-box").show();
+			})
+			$(".go-register").click(function(e){
+				e.preventDefault();
+				$(".log-box").hide();
+				$(".register-qq-box").show();
+			})
+			$(".to-register").click(function(e){
+				e.preventDefault();
+				$(".register-qq-box").hide();
+				$(".register-phone-box").show();
+			})
+			$(".to-log").click(function(e){
+				e.preventDefault();
+				$(".register-qq-box").hide();
+				$(".log-box").show();
+			})
+		</script>
+	</body>
+</html>
